@@ -1,13 +1,16 @@
 # Drum Kit
 
-Drum kit interaktif berbasis web yang memungkinkan pengguna memainkan suara drum menggunakan klik mouse atau tombol keyboard.
+Drum kit interaktif berbasis web yang saya kembangkan memungkinkan pengguna untuk memainkan suara drum menggunakan klik mouse atau tombol keyboard.
+
+# Flowchart Diagram
+
+<img src="./drum-kit-flow-chart.png">
 
 ## Fitur
 
 - Tombol drum interaktif
 - Dukungan keyboard untuk memainkan drum
-- Animasi visual saat drum diaktifkan
-- Desain responsif
+- Animasi saat drum diaktifkan
 
 ## Teknologi yang Digunakan
 
@@ -18,6 +21,7 @@ Drum kit interaktif berbasis web yang memungkinkan pengguna memainkan suara drum
 ## Cara Penggunaan
 
 1. Clone repositori ini ke mesin lokal Anda.
+   git clone https://github.com/raflytch/ch2-24-09-2024-js-challenge-drum.git
 2. Buka file `index.html` di browser web Anda.
 3. Klik pada tombol drum atau gunakan tombol keyboard yang sesuai untuk memainkan suara.
 
@@ -43,12 +47,6 @@ Drum kit interaktif berbasis web yang memungkinkan pengguna memainkan suara drum
 ## Animasi
 
 Ketika sebuah drum diaktifkan, akan:
+
 - Berubah warna menjadi biru selama 3 detik
 - Berputar 360 derajat selama 2 detik
-
-## Kustomisasi
-
-Anda dapat mengkustomisasi proyek ini dengan:
-- Menambahkan lebih banyak suara drum
-- Memodifikasi gaya visual di `styles.css`
-- Memperluas fungsionalitas JavaScript di `index.js`
