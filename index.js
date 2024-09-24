@@ -130,7 +130,7 @@ drums.forEach((drum, index) => {
 });
 
 // Event listener untuk tombol keyboard
-document.addEventListener("keydown", function (event) {
+document.addEventListener("keypress", function (event) {
   // Tangkap tombol yang ditekan
   let keyPress = event.key.toLowerCase();
 
